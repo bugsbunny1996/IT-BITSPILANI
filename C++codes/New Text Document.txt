@@ -7,13 +7,13 @@ queues <int> FIFO
 pairs <int, int> p; // datatype
         {
               p.make_pair(10,20);
-              p.first();    
-              p.second(); 
+              p.first();
+              p.second();
          }
- maps 
+ maps
  set <int> a; a.insert() and a.erase(); //unique and sorted
 
-Graphs 
+Graphs
 DFS
 BFS
 
@@ -21,3 +21,12 @@ KOSARAJU algorithm
 DIJKSTRA's algorithm
 
 
+Dynamic programming
+  Substring   -> always continuous nC2
+  Subsequence -> contiguous   2^n
+
+  Palindrome
+1_Longest_subsequence problem on DP
+  A,B are strings
+  find the subsequence which is longest to both.
+    brute force - Nc2 x Nc2
