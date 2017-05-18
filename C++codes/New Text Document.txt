@@ -1,0 +1,23 @@
+Insertion sort
+Merge sort
+binary search
+vectors  <int>
+stacks <int>FILO
+queues <int> FIFO
+pairs <int, int> p; // datatype
+        {
+              p.make_pair(10,20);
+              p.first();    
+              p.second(); 
+         }
+ maps 
+ set <int> a; a.insert() and a.erase(); //unique and sorted
+
+Graphs 
+DFS
+BFS
+
+KOSARAJU algorithm
+DIJKSTRA's algorithm
+
+
