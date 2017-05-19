@@ -36,8 +36,11 @@ TREES
   INORDER
   Preorder
   Postorder
+  levelorder
 DEFINITIONS PERFECT TREES.. etc
 BINARY_SEARCH_TREE
     value of any child in left subtree <= value of parent <= value of any child right
     SEARCH:
-      1_
+
+
+Graph as a data structure
