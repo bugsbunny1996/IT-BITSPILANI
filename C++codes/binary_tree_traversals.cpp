@@ -33,12 +33,13 @@ if(node != NULL){
 
 Postorder(node->left);
 Postorder(node->right);
-cout<<node->data;
+cout<<node->data<<" ";
 }
 }
 
 int main() {
 
+//creating a Binary search tree
 tree *root = newNode(5);
 root->left = newNode(2);
 root->right = newNode(12);
@@ -46,13 +47,12 @@ root->left->left = newNode(-4);
 root->left->right = newNode(3);
 root->right->left = newNode(9);
 root->right->right = newNode(21);
-
 root->right->right->left = newNode(19);
 root->right->right->right = newNode(25);
-
+//
 
 Preorder(root);
-
+Postorder(root);
 	// your code goes here
 	return 0;
 }
