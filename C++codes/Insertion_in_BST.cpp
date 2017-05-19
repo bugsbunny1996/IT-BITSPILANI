@@ -39,7 +39,7 @@ cout<<node->data<<" ";
 
 tree* insert(tree *node,int dta){
  if (node == NULL) return newNode(dta);
- if(node->data < dta){
+ if(node->data > dta){
  		node->left = insert(node->left,dta);
  	}
  else{
