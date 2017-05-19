@@ -30,3 +30,14 @@ Dynamic programming
   A,B are strings
   find the subsequence which is longest to both.
     brute force - Nc2 x Nc2
+
+TREES
+  BFTS
+  INORDER
+  Preorder
+  Postorder
+DEFINITIONS PERFECT TREES.. etc
+BINARY_SEARCH_TREE
+    value of any child in left subtree <= value of parent <= value of any child right
+    SEARCH:
+      1_
