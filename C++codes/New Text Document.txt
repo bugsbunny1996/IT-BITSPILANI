@@ -52,3 +52,19 @@ Dynamic programming:
     broken down in to smaller sub problems!
     recurrence relation!
     similar to previously solved problems!
+
+    std::find working
+
+    #include <iostream>     // std::cout
+    #include <algorithm>    // std::find
+    #include <vector>       // std::vector
+    using namespace std;
+    int main () {
+
+    int myints[] = { 10, 20, 30, 40 };
+    int * p;
+    p = std::find (myints, myints+4, 50);
+    cout<<*p; //returns 0 if it doesnt exist
+
+    return 0;
+    }
