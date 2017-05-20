@@ -44,3 +44,11 @@ BINARY_SEARCH_TREE
 
 
 Graph as a data structure
+
+
+
+Dynamic programming:
+  Optimization problems
+    broken down in to smaller sub problems!
+    recurrence relation!
+    similar to previously solved problems!
