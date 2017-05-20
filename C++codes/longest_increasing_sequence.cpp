@@ -26,11 +26,11 @@ int increasing(int array[],int n){
 }
 
 int main(void){
-  int array[] = {1,3,1,2,3};
+  int array[] = {1,2,5,2,3,4};
   int temp = 0;
-  int k = increasing(array,4);
+  int k = increasing(array,5);
   for(int i = 0; i< 100;i++){
-      cout<<visited[i];
+      
       if(visited[i]>temp){
 
       temp = visited[i];
